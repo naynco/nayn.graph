@@ -1,0 +1,31 @@
+{
+  "name": "nayn",
+  "version": "1.0.0",
+  "description": "We are connecting actors and news with the nayn.graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.3.0",
+    "orientjs": "^3.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naynco/nayn.graph.git"
+  },
+  "keywords": [
+    "orientdb",
+    "graph",
+    "news",
+    "publishing"
+  ],
+  "author": "dev@nayn.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naynco/nayn.graph/issues"
+  },
+  "homepage": "https://github.com/naynco/nayn.graph#readme"
+}
