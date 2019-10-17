@@ -4,16 +4,20 @@
   "description": "We are connecting actors and news with the nayn.graph",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "nodemon index.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "moment": "^2.24.0",
     "node-fetch": "^2.6.0",
-    "orientjs": "^3.0.7"
+    "orientjs": "^3.0.7",
+    "express": "^4.17.1"
   },
   "resolutions": {
     "mem": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   },
   "repository": {
     "type": "git",
