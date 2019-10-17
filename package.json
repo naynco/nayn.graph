@@ -4,8 +4,8 @@
   "description": "We are connecting actors and news with the nayn.graph",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "build": "npm i"
   },
   "dependencies": {
     "dotenv": "^8.2.0",

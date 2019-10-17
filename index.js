@@ -1,19 +1,13 @@
 require('dotenv').config();
 const app = require("express")();
 const http = require("http").Server(app);
-const OrientDB = require('orientjs');
+import OrientDB from 'orientjs';
 
 const client = OrientDB({
   host: process.env.ORIENTDB_HOST,
   port: process.env.ORIENTDB_PORT,
   username: process.env.ORIENTDB_USERNAME,
   password: process.env.ORIENTDB_PASSWORD
-});
-
-const db = client.use({
-  name: process.env.DB_NAME,
-  username: process.env.DB_USERNAME,
-  password: process.env.DB_PASSWORD
 });
 
 const port = process.env.SERVER_PORT || 3000;
