@@ -7,10 +7,10 @@
     "test": "npm test"
   },
   "dependencies": {
-    "dotenv": "^7.0.0",
+    "dotenv": "^8.2.0",
     "moment": "^2.24.0",
-    "node-fetch": "^2.3.0",
-    "orientjs": "^3.0.5"
+    "node-fetch": "^2.6.0",
+    "orientjs": "^3.0.7"
   },
   "repository": {
     "type": "git",
